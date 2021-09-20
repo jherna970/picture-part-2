@@ -1,0 +1,32 @@
+.body {
+  display: grid;
+  margin-left: 16px;
+  grid-template-areas:
+    "header header header header twitter ."
+    "header header header header facebook ."
+    "header header header header mask0 ."
+    "header header header header mask0 ."
+    "fam0 fam0 man0 woman0 woman1 ."
+    "man1 man2 man2 can0 man3 ."
+    "man1 san woman2 woman2 free0 ."
+    "prop0 san can1 can2 goblins0 ."
+    "mask1 mask2 mask2 . . .";
+  justify-content: stretch;
+  align-content: stretch;
+  margin-top: 32px;
+  gap: 4px 4px;
+  position: absolute;
+  width: 97.5%;
+}
+img {
+  justify-self: stretch;
+}
+.nav {
+  justify-content: space-evenly;
+  background-color: rosybrown;
+}
+.tex {
+  display: inline;
+  margin-left: 4px;
+  margin-right: 32px;
+}
